@@ -5,7 +5,8 @@ data = {
     'Name' : ['Ali', 'Ahmad', 'Bilal'],
     'Roll_No': [10, 12, 14],
     'email': ['ali@gmail.com', 'ahmad@gmail.com', 'bilal@gmail.com'],
-    'DPT': ['CS', 'SE', 'IT']
+    'DPT': ['CS', 'SE', 'IT'],
+    'Timing': ['Morning', 'Evening', 'Weekend']
 }
 
 df = pd.DataFrame(data=data)
